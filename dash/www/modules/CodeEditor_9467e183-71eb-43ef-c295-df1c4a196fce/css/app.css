@@ -1,0 +1,15 @@
+.editor-app {
+  display: flex;
+  flex-direction: column; }
+  .editor-app .editor-toolbar {
+    display: none;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 1px; }
+    .editor-app .editor-toolbar .editor-btn {
+      margin-right: 5px; }
+  .editor-app .editor-container {
+    flex-grow: 1; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXMiOlsiYXBwLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsQUFBQSxXQUFXLENBQUM7RUFDUixPQUFPLEVBQUUsSUFBSTtFQUNiLGNBQWMsRUFBRSxNQUFNLEdBZXpCO0VBakJELEFBR0ksV0FITyxDQUdQLGVBQWUsQ0FBQztJQUNaLE9BQU8sRUFBRSxJQUFJO0lBQ2IsYUFBYSxFQUFFLEdBQUc7SUFDbEIsYUFBYSxFQUFFLEdBQUc7SUFDbEIsVUFBVSxFQUFFLEdBQUc7SUFDZixPQUFPLEVBQUUsR0FBRyxHQUtmO0lBYkwsQUFVUSxXQVZHLENBR1AsZUFBZSxDQU9YLFdBQVcsQ0FBQztNQUNSLFlBQVksRUFBRSxHQUFHLEdBQ3BCO0VBWlQsQUFjSSxXQWRPLENBY1AsaUJBQWlCLENBQUM7SUFDZCxTQUFTLEVBQUUsQ0FBQyxHQUNmIn0= */

@@ -1,0 +1,443 @@
+{
+  "id": "9a817665-691c-9560-4a38-3f50555c45f8",
+  "name": "Tick Architecture Setup",
+  "creationDate": "Wed, 16 Jun 2021 06:08:05 GMT",
+  "lastUpdateDate": "Fri, 18 Jun 2021 05:12:56 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "ea2371c3-696e-cbcc-51e3-8f88f9169cb0"
+    }
+  ],
+  "screens": [
+    {
+      "id": "ea2371c3-696e-cbcc-51e3-8f88f9169cb0",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "97eb242f-f156-26ee-ad82-bc6c6a2354c3",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 24,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "d247c27f-b2b9-8f8e-f2c1-6b574fdd30ab",
+            "key": "ChartJS",
+            "options": {
+              "Layers": [
+                {
+                  "_Hidden": {
+                    "_Type": "Line",
+                    "_Index": 0,
+                    "_LayerId": "layer_8977",
+                    "_PossibleColumns": [
+                      "time",
+                      "sym",
+                      "bid",
+                      "ask",
+                      "bsize",
+                      "asize"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "time",
+                      "sym",
+                      "bid",
+                      "ask",
+                      "bsize",
+                      "asize"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "time",
+                      "sym",
+                      "bid",
+                      "ask",
+                      "bsize",
+                      "asize"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "time",
+                      "sym",
+                      "bid",
+                      "ask",
+                      "bsize",
+                      "asize"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1"
+                    ],
+                    "_PossibleLayers": [
+                      "nofill",
+                      "origin",
+                      "+1"
+                    ]
+                  },
+                  "Basics": {
+                    "LegendLabelColor": "",
+                    "Name": "Layer 1",
+                    "BorderWidth": 0,
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "Subscription"
+                    }
+                  },
+                  "Axes": {
+                    "XAxisData": "time",
+                    "YAxisData": "bid",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1"
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  },
+                  "Points": {
+                    "PointBorderWidth": 0,
+                    "PointHoverBorderWidth": 0
+                  }
+                }
+              ],
+              "XAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "category",
+                    "_AxisId": "axis_7293",
+                    "_Index": 0,
+                    "_Label": "XAxis 1"
+                  },
+                  "Labels": {
+                    "DateFormat": "YYYY-MM-DD",
+                    "MaxWidth": 0
+                  }
+                }
+              ],
+              "YAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "linear",
+                    "_AxisId": "axis_7297",
+                    "_Index": 0,
+                    "_Label": "YAxis 1"
+                  },
+                  "Labels": {
+                    "DateFormat": "YYYY-MM-DD",
+                    "MaxWidth": 0,
+                    "_ReverseCache": false
+                  }
+                }
+              ],
+              "version": "4.6.1"
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1007",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {}
+  },
+  "data": {
+    "Developer_1_a_1": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "developer",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "tables[]",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "RDB_1_a_1": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "price",
+        "size",
+        "bid",
+        "ask",
+        "bsize",
+        "asize"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "ticker",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 1,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "quote",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_analyticParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "RDB_1_a_1/_analyticParameters"
+      },
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "HDB_1_a_1": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "rdb (Copy)",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "tables[]",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Subscription": {
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "bid",
+        "ask",
+        "bsize",
+        "asize"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "ticker",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "quote",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_analyticParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "Subscription/_analyticParameters"
+      },
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "time",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "wasChanged": true,
+  "version": "4.6.0P1"
+}

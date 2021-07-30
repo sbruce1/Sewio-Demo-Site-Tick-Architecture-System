@@ -1,0 +1,61 @@
+/**/
+.treeview-app .treeview-container.search-disabled .treeview-search {
+  display: none; }
+
+.treeview-app .treeview-container.search-disabled .treeview-elem {
+  top: 0px; }
+
+.treeview-app .treeview-container.hide-checkboxes i.jstree-icon.jstree-checkbox {
+  display: none; }
+
+.treeview-app .treeview-container .treeview-search {
+  width: 99.5%;
+  height: 25px;
+  border: 1px solid #5a5a5a; }
+  .treeview-app .treeview-container .treeview-search .fa-search {
+    margin: 7px -19px 0px 7px;
+    color: #ccc;
+    position: absolute;
+    top: 2px; }
+  .treeview-app .treeview-container .treeview-search .fa-times {
+    margin-top: 2px; }
+  .treeview-app .treeview-container .treeview-search .search {
+    height: 25px;
+    background: #424242;
+    border-width: 0px;
+    color: white;
+    padding: 4px 23px;
+    width: 100%;
+    box-sizing: border-box; }
+  .treeview-app .treeview-container .treeview-search .clearSearch {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer; }
+
+.treeview-app .treeview-container .jstree-default .jstree-icon.jstree-themeicon-custom {
+  background-image: none; }
+
+.treeview-app .treeview-container .treeview-elem {
+  overflow: auto;
+  top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 8px; }
+
+.treeview-app .treeview-container .jstree .jstree-search {
+  color: #ffffff; }
+
+.kx-light .treeview-app .treeview-search {
+  border: 1px solid #bababa; }
+  .kx-light .treeview-app .treeview-search .search {
+    background: #ffffff;
+    color: #000000; }
+  .kx-light .treeview-app .treeview-search .fa-times {
+    color: #424242; }
+
+.kx-light .treeview-app .jstree .jstree-search {
+  color: #000000; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXMiOlsiYXBwLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSTtBQUNKLEFBR1ksYUFIQyxDQUNULG1CQUFtQixBQUNkLGdCQUFnQixDQUNiLGdCQUFnQixDQUFDO0VBQ2IsT0FBTyxFQUFFLElBQUksR0FDaEI7O0FBTGIsQUFNWSxhQU5DLENBQ1QsbUJBQW1CLEFBQ2QsZ0JBQWdCLENBSWIsY0FBYyxDQUFDO0VBQ1gsR0FBRyxFQUFFLEdBQUcsR0FDWDs7QUFSYixBQVdZLGFBWEMsQ0FDVCxtQkFBbUIsQUFTZCxnQkFBZ0IsQ0FDYixDQUFDLEFBQUEsWUFBWSxBQUFBLGdCQUFnQixDQUFDO0VBQzFCLE9BQU8sRUFBRSxJQUFJLEdBQ2Y7O0FBYmQsQUFlUSxhQWZLLENBQ1QsbUJBQW1CLENBY2YsZ0JBQWdCLENBQUM7RUFDYixLQUFLLEVBQUUsS0FBSztFQUNaLE1BQU0sRUFBRSxJQUFJO0VBQ1osTUFBTSxFQUFFLGlCQUFpQixHQXlCNUI7RUEzQ1QsQUFtQlksYUFuQkMsQ0FDVCxtQkFBbUIsQ0FjZixnQkFBZ0IsQ0FJWixVQUFVLENBQUM7SUFDUCxNQUFNLEVBQUUsaUJBQWlCO0lBQ3pCLEtBQUssRUFBRSxJQUFJO0lBQ1gsUUFBUSxFQUFFLFFBQVE7SUFDbEIsR0FBRyxFQUFFLEdBQUcsR0FDWDtFQXhCYixBQXlCWSxhQXpCQyxDQUNULG1CQUFtQixDQWNmLGdCQUFnQixDQVVaLFNBQVMsQ0FBQztJQUNOLFVBQVUsRUFBRSxHQUFHLEdBQ2xCO0VBM0JiLEFBNEJZLGFBNUJDLENBQ1QsbUJBQW1CLENBY2YsZ0JBQWdCLENBYVosT0FBTyxDQUFDO0lBQ0osTUFBTSxFQUFFLElBQUk7SUFDWixVQUFVLEVBQUUsT0FBTztJQUNuQixZQUFZLEVBQUUsR0FBRztJQUNqQixLQUFLLEVBQUUsS0FBSztJQUNaLE9BQU8sRUFBRSxRQUFRO0lBQ2pCLEtBQUssRUFBRSxJQUFJO0lBQ1gsVUFBVSxFQUFFLFVBQVUsR0FDekI7RUFwQ2IsQUFxQ1ksYUFyQ0MsQ0FDVCxtQkFBbUIsQ0FjZixnQkFBZ0IsQ0FzQlosWUFBWSxDQUFDO0lBQ1QsUUFBUSxFQUFFLFFBQVE7SUFDbEIsS0FBSyxFQUFFLElBQUk7SUFDWCxHQUFHLEVBQUUsR0FBRztJQUNSLE1BQU0sRUFBRSxPQUFPLEdBQ2xCOztBQTFDYixBQTRDUSxhQTVDSyxDQUNULG1CQUFtQixDQTJDZixlQUFlLENBQUMsWUFBWSxBQUFBLHdCQUF3QixDQUFDO0VBQ2pELGdCQUFnQixFQUFFLElBQUksR0FDekI7O0FBOUNULEFBK0NRLGFBL0NLLENBQ1QsbUJBQW1CLENBOENmLGNBQWMsQ0FBQztFQUNYLFFBQVEsRUFBRSxJQUFJO0VBQ2QsR0FBRyxFQUFFLElBQUk7RUFDVCxRQUFRLEVBQUUsUUFBUTtFQUNsQixNQUFNLEVBQUUsQ0FBQztFQUNULElBQUksRUFBRSxDQUFDO0VBQ1AsS0FBSyxFQUFFLEdBQUcsR0FDYjs7QUF0RFQsQUF1RFEsYUF2REssQ0FDVCxtQkFBbUIsQ0FzRGYsT0FBTyxDQUFDLGNBQWMsQ0FBQztFQUNuQixLQUFLLEVBQUMsT0FBTyxHQUNoQjs7QUFJVCxBQUNJLFNBREssQ0FBQyxhQUFhLENBQ25CLGdCQUFnQixDQUFDO0VBQ2IsTUFBTSxFQUFFLGlCQUFpQixHQVE1QjtFQVZMLEFBR1EsU0FIQyxDQUFDLGFBQWEsQ0FDbkIsZ0JBQWdCLENBRVosT0FBTyxDQUFFO0lBQ0wsVUFBVSxFQUFFLE9BQU87SUFDbkIsS0FBSyxFQUFFLE9BQU8sR0FDakI7RUFOVCxBQU9RLFNBUEMsQ0FBQyxhQUFhLENBQ25CLGdCQUFnQixDQU1aLFNBQVMsQ0FBQztJQUNOLEtBQUssRUFBRSxPQUFPLEdBQ2pCOztBQVRULEFBV0ksU0FYSyxDQUFDLGFBQWEsQ0FXbkIsT0FBTyxDQUFDLGNBQWMsQ0FBQztFQUNuQixLQUFLLEVBQUMsT0FBTyxHQUNoQiJ9 */

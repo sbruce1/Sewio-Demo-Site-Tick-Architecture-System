@@ -1,0 +1,8 @@
+.video-container > canvas {
+  position: absolute; }
+
+.video-container video {
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXMiOlsiYXBwLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsQUFDSSxnQkFEWSxHQUNWLE1BQU0sQ0FBQztFQUNMLFFBQVEsRUFBRSxRQUFRLEdBQ3JCOztBQUhMLEFBSUksZ0JBSlksQ0FJWixLQUFLLENBQUM7RUFDRixNQUFNLEVBQUUsSUFBSTtFQUNaLEtBQUssRUFBRSxJQUFJLEdBQ2QifQ== */

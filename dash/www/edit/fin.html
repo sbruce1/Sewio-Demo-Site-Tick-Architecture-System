@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dashboards</title>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            border: 0 none;
+            overflow: hidden;
+            color: #888;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        *:focus {
+            outline: none;
+        }
+        #appContainer {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+        #appdiv {
+            height: 100%;
+            width: 100%;
+            background: #666;
+        }
+    </style>
+    <script src="/modules/vendor/require-2.1.22.min.js"></script>
+    <script src="/modules/vendor/FinApi.js"></script>
+</head>
+<body>
+    <div id="appContainer">   
+        <div id="appdiv"></div>
+    </div>
+    <script type="text/javascript">    
+        var init = function () {
+            var params = {
+                finInitData: FSBL.Clients.WindowClient.getSpawnData(),
+                isAuthenticated: true
+            };
+            /**
+             *  Create new instance of Finsemble API, make it available in the 
+             * window obj so that it can be accessed within the app
+            */
+            window.finApi = new FinApi(params);
+            
+            define('parameters', {
+                'DocsUrl': 'https://code.kx.com/dashboards',
+                'DeltaClientFromUrl': true,
+                'NewPdf': true,
+                'isLite': true,
+                'hideToolbar': true,
+                'buildMode': false,
+                'isFinsemble': true
+            });
+            // Launch main.js same as done in index.html
+            require(['/main.js']);
+            //preset title page title    
+            FSBL.Clients.WindowClient.setWindowTitle(document.title);
+            window.finApi.initRoutersEvents();
+        };
+        // Load script after finsemble is loaded
+        if (window.FSBL && FSBL.addEventListener) {
+            FSBL.addEventListener('onReady', init);
+        } else {
+            window.addEventListener('FSBLReady', init);
+        }
+    </script>
+</body>
+</html>

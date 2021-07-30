@@ -1,0 +1,10 @@
+#Fri, 18 Jun 2021 14:16:22 +0000
+
+product.name=HTML5DashboardsLite
+build.guid=9467e183-71eb-43ef-c295-df1c4a196fce
+build.time=210618141621
+
+svn.revision=${svn.revision}
+major.version=4
+minor.version=6
+incremental.version=1P4

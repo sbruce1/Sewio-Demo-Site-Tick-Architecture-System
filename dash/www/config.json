@@ -1,0 +1,109 @@
+{
+    "dashboards": {
+        "apps": {
+            "base": [
+                "QuickBase",
+                "Forms"
+            ],
+            "edit": "QuickDash",
+            "view": "QuickView"
+        },
+        "connection": {},
+        "quickbase": {
+            "chartjs": "vendor/Chart-2.9.3-moment.custom.min",
+            "client": "lib/client_4_6_0_S7_200818195234_e70f2cda-e856-9cc4-de9c-0edf3ed1a6cb.min",
+            "dashMoment": "lib/dashMoment_4_1_0",
+            "echarts": "vendor/echarts.min",
+            "kdb": "lib/kdb_4_6_0_S7_200818195234_e70f2cda-e856-9cc4-de9c-0edf3ed1a6cb.min",
+            "log": "lib/log_3_1_2",
+            "hammer": "vendor/hammer.min",
+            "Fuse": "vendor/fuse.min",
+            "backbone": "vendor/backbone-1.4.0.min",
+            "Handlebars": "vendor/handlebars-v4.0.11.custom.min",
+            "jquery": "vendor/jquery-1.12.4.custom.min",
+            "jqueryui": "vendor/jquery-ui.min",
+            "jstree": "vendor/jstree-3.3.8.min.js",
+            "moment": "vendor/moment-2.22.1.min",
+            "purify": "vendor/purify-2.0.3.min",
+            "select2": "vendor/select2-4.0.1.min",
+            "sparkline": "vendor/jquery.sparkline.2.1.2.min",
+            "underscore": "vendor/lodash-4.17.14.min",
+            "vega": "vendor/vega-5.3.2.ie.min",
+            "vegaSchema": "vendor/vega-schema-5.3.2.min.json",
+            "vis": "vendor/vis-5.5.3.custom.min",
+            "worker": "lib/worker.js",
+            "xlsx": "vendor/xlsx-0.10.0.core.min"
+        }
+    },
+    "index": {
+        "_partials": ["prehtml", "css", "libs", "require", "ieHead", "ieBody"],
+        "dev": {
+            "index_package.html": {
+                "index.html": {
+                    "query_graph": true,
+                    "quickview": true
+                },
+                "edit/index.html": {}
+            }
+        },
+        "dev-lite": {
+            "index_package.html": {
+                "index.html": {
+                    "quickview": true
+                },
+                "edit/index.html": {}
+            }
+        },
+        "lite": {
+            "index_package.html": {
+                "index.html": {
+                    "quickview": true
+                },
+                "edit/index.html": {}
+            }
+        },
+        "platform": {
+            "index_package.html": {
+                "index.jsp": {
+                    "quickview": true
+                },
+                "edit/index.jsp": {}
+            }
+        }
+    },
+    "require": {
+        "paths": {
+            "polyfill": "vendor/polyfill.min",
+            "qlinter": "vendor/qlinter.min",
+            "beautify": "vendor/beautify-1.0.11.min",
+            "beautify-css": "vendor/beautify-css-1.0.11.min",
+            "beautify-html": "vendor/beautify-html-1.0.11.min",
+            "vs": "vendor/monaco-editor-0.18.1/vs",
+            "biPartite": "vendor/d3/biPartite",
+            "d3": "vendor/d3/d3.min",
+            "kx-darkroom": "css/themes/kx-darkroom/jquery-ui",
+            "kx-light": "css/themes/kx-light/jquery-ui",
+            "nv": "vendor/d3/nv.d3.min",
+            "rxjs": "vendor/rxjs.umd.min",
+            "topojson": "vendor/topojson.v1.min",
+            "jshint": "vendor/jshint-2.9.5-gk-custom.min",
+            "mapbox": "https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl",
+            "Plotly": "vendor/plotly-custom.1.51.2.min"
+        },
+        "shim": {
+            "nv": {
+                "deps": [
+                    "d3"
+                ],
+                "exports": "nv"
+            },
+            "beautify-html": {
+                "deps": [
+                    "beautify",
+                    "beautify-css"
+                ]
+            }
+        },
+        "waitSeconds": 0
+    }
+}

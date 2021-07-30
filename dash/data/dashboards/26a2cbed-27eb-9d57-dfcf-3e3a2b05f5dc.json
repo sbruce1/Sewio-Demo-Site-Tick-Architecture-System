@@ -1,0 +1,1182 @@
+{
+  "id": "26a2cbed-27eb-9d57-dfcf-3e3a2b05f5dc",
+  "name": "Sewio Data Demo",
+  "creationDate": "Wed, 23 Jun 2021 07:58:48 GMT",
+  "lastUpdateDate": "Tue, 06 Jul 2021 01:01:09 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "1d94ed6b-239d-6390-60c6-3b4433dfd85d"
+    }
+  ],
+  "screens": [
+    {
+      "id": "1d94ed6b-239d-6390-60c6-3b4433dfd85d",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "e268a7d6-3a73-f6fc-6a85-286ee0c18654",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 10,
+            "colSpan": 11
+          },
+          "component": {
+            "id": "c591e248-e9e9-784b-9205-28a3dc170ac7",
+            "key": "ChartJS",
+            "options": {
+              "Layers": [
+                {
+                  "_Hidden": {
+                    "_Type": "Bubble",
+                    "_Index": 0,
+                    "_LayerId": "layer_8977",
+                    "_PossibleColumns": [
+                      "time",
+                      "sym",
+                      "posX",
+                      "posY",
+                      "myID"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "time",
+                      "sym",
+                      "posX",
+                      "posY",
+                      "myID"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "time",
+                      "sym",
+                      "posX",
+                      "posY",
+                      "myID"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "time",
+                      "sym",
+                      "posX",
+                      "posY",
+                      "myID"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1"
+                    ]
+                  },
+                  "Basics": {
+                    "LegendLabelColor": "",
+                    "Name": "Layer 1",
+                    "BorderWidth": 0,
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "CurrentPositions"
+                    }
+                  },
+                  "Axes": {
+                    "XAxisData": "posX",
+                    "RadiusScaling": 5,
+                    "YAxisData": "posY",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1"
+                  },
+                  "HighlightRules": {
+                    "0": {
+                      "RuleName": "Guard",
+                      "RuleSource": "myID",
+                      "RuleTarget": "*",
+                      "RuleType": "discrete",
+                      "Show": true,
+                      "RuleBorderColor": "#F8F8F8",
+                      "RuleColor": "#F8F8F8",
+                      "RuleOperation": "<=",
+                      "RuleValue": "8"
+                    }
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 10
+                    }
+                  },
+                  "Bubbles": {
+                    "HoverBorderWidth": 0,
+                    "Icons": "fa-location-arrow"
+                  }
+                }
+              ],
+              "XAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "linear",
+                    "_AxisId": "axis_3885",
+                    "_Index": 0,
+                    "_Label": "XAxis 1"
+                  },
+                  "Title": {
+                    "Display": true,
+                    "FontFamily": "'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'",
+                    "FontSize": 12,
+                    "FontStyle": "normal",
+                    "LabelString": "X Position",
+                    "FontColor": "#FFFFFF",
+                    "FontOpacity": 100
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "Reverse": false,
+                    "BeginAtZero": true,
+                    "DateFormat": "YYYY-MM-DD",
+                    "Offset": false
+                  },
+                  "Range": {
+                    "UseMinMaxReset": false
+                  }
+                }
+              ],
+              "YAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "linear",
+                    "_AxisId": "axis_3889",
+                    "_Index": 0,
+                    "_Label": "YAxis 1"
+                  },
+                  "Title": {
+                    "Display": true,
+                    "FontFamily": "'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'",
+                    "FontSize": 12,
+                    "FontStyle": "normal",
+                    "LabelString": "Y Position",
+                    "FontColor": "#FFFFFF",
+                    "FontOpacity": 100
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  },
+                  "Range": {
+                    "UseMinMaxReset": false
+                  }
+                }
+              ],
+              "version": "4.6.1.4",
+              "Legend": {
+                "LegendLayerThreshold": 5
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1007",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "92e7e21a-ee89-9ed8-3c2c-2281650267c2",
+          "layout": {
+            "row": 0,
+            "column": 11,
+            "rowSpan": 11,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "a59cc054-778f-fa61-8c68-2b2e41f45de9",
+            "key": "Chart3D",
+            "options": {
+              "version": "4.5.0",
+              "possibleAxis": [
+                "x_grid",
+                "y_grid",
+                "COUNT"
+              ],
+              "possibleColumns": [
+                "x_grid",
+                "y_grid",
+                "COUNT"
+              ],
+              "possibleLabels": [],
+              "possibleRules": [],
+              "Basics": {
+                "Focus": {},
+                "Theme": "Dark",
+                "Type": "bar-color",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "HeatMap"
+                },
+                "SelectedAttr": ""
+              },
+              "X": {
+                "Data": "x_grid",
+                "AxisType": "Linear",
+                "Label": "",
+                "Format": "",
+                "DateFormat": "YYYY-MM-DD",
+                "Prefix": "",
+                "Suffix": "",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Y": {
+                "Data": "y_grid",
+                "AxisType": "Linear",
+                "Label": "",
+                "Format": "",
+                "DateFormat": "YYYY-MM-DD",
+                "Prefix": "",
+                "Suffix": "",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Z": {
+                "Data": "COUNT",
+                "AxisType": "Linear",
+                "Label": "",
+                "Format": "",
+                "DateFormat": "YYYY-MM-DD",
+                "Prefix": "",
+                "Suffix": "",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Volume": {
+                "Data": "x_grid",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Position": {
+                "Horizontal": 0,
+                "Vertical": 0,
+                "Distance": 2.15233605
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": "",
+                "fill": "transparent",
+                "stroke": "#FFFFFF",
+                "VerticalRatio": 70,
+                "KeepAspectRatio": false,
+                "advancedTooltip": "<table>{{#each points}}<tr><td>{{xLabel}}</td><td>{{x}}</td></tr><tr><td>{{yLabel}}</td><td>{{y}}</td></tr><tr><td>{{zLabel}}</td><td>{{z}}</td></tr>{{/each}}</table>",
+                "ColorPalette": {
+                  "ColorScheme": [
+                    {
+                      "type": "#F8696B"
+                    },
+                    {
+                      "type": "#F98570"
+                    },
+                    {
+                      "type": "#FBA276"
+                    },
+                    {
+                      "type": "#FCBF7B"
+                    },
+                    {
+                      "type": "#FEDC81"
+                    },
+                    {
+                      "type": "#EEE683"
+                    },
+                    {
+                      "type": "#CCDD82"
+                    },
+                    {
+                      "type": "#A9D27F"
+                    },
+                    {
+                      "type": "#86C97E"
+                    },
+                    {
+                      "type": "#63BE7B"
+                    }
+                  ]
+                }
+              },
+              "Alignment": {
+                "paddingLeft": "0",
+                "paddingRight": "0",
+                "paddingTop": "0",
+                "paddingBottom": "0",
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 0,
+                "titlePaddingBottom": 0
+              },
+              "format": {
+                "widgetTitle": "",
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "20",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "9172ea33-a2f8-a721-f3f1-1d30d1cdd1ec",
+          "layout": {
+            "row": 0,
+            "column": 23,
+            "rowSpan": 12,
+            "colSpan": 13
+          },
+          "component": {
+            "id": "fc26be59-228f-a7a2-34fd-0f6d55a0898a",
+            "key": "AnalystWidget",
+            "options": {
+              "version": "4.2.1",
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "GGPlotRDB"
+                },
+                "Selected": ""
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1004",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "55e7e643-b772-da45-1cf4-8c1e4778a374",
+          "layout": {
+            "row": 10,
+            "column": 0,
+            "rowSpan": 14,
+            "colSpan": 11
+          },
+          "component": {
+            "id": "cf250863-d819-188b-ba06-61898e7bbc6d",
+            "key": "AnalystWidget",
+            "options": {
+              "version": "4.2.1",
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "GGPlotTickerPlant"
+                },
+                "Selected": ""
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1004",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "c9b8344c-cda5-9d3a-d889-b99cc19ffe65",
+          "layout": {
+            "row": 12,
+            "column": 11,
+            "rowSpan": 12,
+            "colSpan": 16
+          },
+          "component": {
+            "id": "63b7f1c5-e418-42a7-ca60-fe38f34e75fa",
+            "key": "Chart3D",
+            "options": {
+              "version": "4.5.0",
+              "possibleAxis": [
+                "x_grid",
+                "y_grid",
+                "COUNT"
+              ],
+              "possibleColumns": [
+                "x_grid",
+                "y_grid",
+                "COUNT"
+              ],
+              "possibleLabels": [],
+              "possibleRules": [],
+              "Basics": {
+                "Focus": {},
+                "Theme": "Dark",
+                "Type": "bar",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "HeatMapPolling"
+                },
+                "SelectedAttr": ""
+              },
+              "X": {
+                "Data": "x_grid",
+                "AxisType": "Linear",
+                "Label": "",
+                "Format": "",
+                "DateFormat": "YYYY-MM-DD",
+                "Prefix": "",
+                "Suffix": "",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Y": {
+                "Data": "y_grid",
+                "AxisType": "Linear",
+                "Label": "",
+                "Format": "",
+                "DateFormat": "YYYY-MM-DD",
+                "Prefix": "",
+                "Suffix": "",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Z": {
+                "Data": "COUNT",
+                "AxisType": "Linear",
+                "Label": "",
+                "Format": "",
+                "DateFormat": "YYYY-MM-DD",
+                "Prefix": "",
+                "Suffix": "",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 10
+              },
+              "Volume": {
+                "Data": "COUNT",
+                "UseMin": false,
+                "AxisMin": 0,
+                "UseMax": false,
+                "AxisMax": 100
+              },
+              "Position": {
+                "Horizontal": 1.39,
+                "Vertical": 0.5,
+                "Distance": 3
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": "",
+                "fill": "transparent",
+                "stroke": "#FFFFFF",
+                "VerticalRatio": 70,
+                "KeepAspectRatio": false,
+                "advancedTooltip": "<table>{{#each points}}<tr><td>{{xLabel}}</td><td>{{x}}</td></tr><tr><td>{{yLabel}}</td><td>{{y}}</td></tr><tr><td>{{zLabel}}</td><td>{{z}}</td></tr>{{/each}}</table>",
+                "ColorPalette": {
+                  "ColorScheme": [
+                    {
+                      "type": "#F8696B"
+                    },
+                    {
+                      "type": "#F98570"
+                    },
+                    {
+                      "type": "#FBA276"
+                    },
+                    {
+                      "type": "#FCBF7B"
+                    },
+                    {
+                      "type": "#FEDC81"
+                    },
+                    {
+                      "type": "#EEE683"
+                    },
+                    {
+                      "type": "#CCDD82"
+                    },
+                    {
+                      "type": "#A9D27F"
+                    },
+                    {
+                      "type": "#86C97E"
+                    },
+                    {
+                      "type": "#63BE7B"
+                    }
+                  ]
+                }
+              },
+              "Alignment": {
+                "paddingLeft": "0",
+                "paddingRight": "0",
+                "paddingTop": "0",
+                "paddingBottom": "0",
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "widgetTitle": "",
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "20",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {}
+  },
+  "data": {
+    "CurrentPositions": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "posX",
+        "posY",
+        "myID"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "ticker",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "test",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "myID",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": true,
+      "_updateQueryString": "{[dgAdd;dgUpd;dgDel]\n  / this sample requires keyed table\n  / always use unique key (id), 'Force Reset': checked\n\n  /testTable:: `id xkey ([] id:`int$();name:`symbol$();note1:`symbol$());\n  /`testTable upsert(0i;`dummy;`);\n  /testTable\n\n    availablePK: 1 + exec max id from testTable;\n\n    $[((count dgUpd)>0);`testTable upsert flip dgUpd;];\n    $[((count dgDel)>0);delete from `testTable where id in (dgDel[`id]);];\n\n    /generate unique ids for new items\n    addedCount: count dgAdd[`id];\n    dgAdd[`id]:(availablePK + til addedCount);\n    $[((count dgAdd)>0);`testTable upsert flip dgAdd;];\n}",
+      "_updateType": "query"
+    },
+    "Paths": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "posX",
+        "posY",
+        "myID"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "ticker",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "test",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "time",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "HeatMap": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "x_grid",
+        "y_grid",
+        "COUNT"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "rdb",
+      "_mappings": {
+        "key": "x_grid",
+        "mappings": {},
+        "value": "y_grid"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "getTable",
+      "_analyticParams": [
+        {
+          "id": "tableName",
+          "name": "tableName",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "test",
+          "isViewState": false
+        }
+      ],
+      "_analyticParameters": [
+        {
+          "id": "tableName",
+          "name": "tableName",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "test",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "GGPlot": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "id"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "dev",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 1,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "h1:hopen(`::5005); devTable:h1 \"select from test\"; hclose h1;\r\n\r\n.gg.dash.go\r\n    .qp.theme[.gg.dash.dark]\r\n      .qp.theme[`aspect_ratio`legend_use!(`square; 0b)] \r\n        .qp.path[-300 sublist select from devTable where time > 18803D04:07:45.599174900, myID=14 ; `posX; `posY]\r\n              .qp.s.aes[`fill; `time]\r\n            , .qp.s.scale[`fill; .gg.scale.colour.gradient[`steelblue; `firebrick]]\r\n            , .qp.s.aes[`alpha; `time]\r\n            , .qp.s.scale[`alpha; .gg.scale.alpha[0;255]]\r\n            , .qp.s.aes[`size; `time]\r\n            , .qp.s.scale[`size; .gg.scale.line.size[0; 3]]",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "GGPlotAnalytics": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "dev",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "plotEverything",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_analyticParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "GGPlotRDB": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "id"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "rdb",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[x].gg.dash.go\r\n    .qp.theme[.gg.dash.dark]\r\n      .qp.theme[`aspect_ratio`legend_use!(`square; 0b)] \r\n        .qp.path[-300 sublist select from test where time > 18803D04:07:45.599174900, myID=14 ; `posX; `posY]\r\n              .qp.s.aes[`fill; `time]\r\n            , .qp.s.scale[`fill; .gg.scale.colour.gradient[`steelblue; `firebrick]]\r\n            , .qp.s.aes[`alpha; `time]\r\n            , .qp.s.scale[`alpha; .gg.scale.alpha[0;255]]\r\n            , .qp.s.aes[`size; `time]\r\n            , .qp.s.scale[`size; .gg.scale.line.size[0; 3]]\r\n  }\r\n\r\n\r\n",
+      "_queryParams": [
+        {
+          "name": "x",
+          "index": 0,
+          "type": "symbol",
+          "value": "1",
+          "IsKdbParam": true,
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "GGPlotTickerPlant": {
+      "_autoExec": true,
+      "_columns": [
+        "id"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "dev",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 1,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_queryString": "h1:hopen(`::5005); devTable:h1 \"select from test\"; hclose h1;\r\n\r\n.gg.dash.go\r\n    .qp.theme[.gg.dash.dark]\r\n      .qp.theme[`aspect_ratio`legend_use!(`square; 0b)] \r\n        .qp.path[-300 sublist select from devTable where time > 18803D04:07:45.599174900, myID=14 ; `posX; `posY]\r\n              .qp.s.aes[`fill; `time]\r\n            , .qp.s.scale[`fill; .gg.scale.colour.gradient[`steelblue; `firebrick]]\r\n            , .qp.s.aes[`alpha; `time]\r\n            , .qp.s.scale[`alpha; .gg.scale.alpha[0;255]]\r\n            , .qp.s.aes[`size; `time]\r\n            , .qp.s.scale[`size; .gg.scale.line.size[0; 3]]",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "HeatMapPolling": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "x_grid",
+        "y_grid",
+        "COUNT"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "rdb",
+      "_mappings": {
+        "key": "x_grid",
+        "mappings": {},
+        "value": "y_grid"
+      },
+      "_maxRows": 2000,
+      "_forceReset": false,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 1,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "highFrequencyTable",
+      "_analyticParams": [
+        {
+          "id": "tableName",
+          "name": "tableName",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "test",
+          "isViewState": false
+        }
+      ],
+      "_analyticParameters": [
+        {
+          "id": "tableName",
+          "name": "tableName",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "test",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "{[dgAdd;dgUpd;dgDel]\n  / this sample requires keyed table\n  / always use unique key (id), 'Force Reset': checked\n\n  /testTable:: `id xkey ([] id:`int$();name:`symbol$();note1:`symbol$());\n  /`testTable upsert(0i;`dummy;`);\n  /testTable\n\n    availablePK: 1 + exec max id from testTable;\n\n    $[((count dgUpd)>0);`testTable upsert flip dgUpd;];\n    $[((count dgDel)>0);delete from `testTable where id in (dgDel[`id]);];\n\n    /generate unique ids for new items\n    addedCount: count dgAdd[`id];\n    dgAdd[`id]:(availablePK + til addedCount);\n    $[((count dgAdd)>0);`testTable upsert flip dgAdd;];\n}",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "wasChanged": true,
+  "version": "4.6.0P1"
+}
