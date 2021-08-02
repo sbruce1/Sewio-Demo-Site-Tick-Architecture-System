@@ -1,6 +1,20 @@
 # Sewio-Demo-Site-Tick-Architecture-System
 Tick Architecture System, setup with Q/KDB+ ingesting real-time location data via Sewio's demo site via websockets. Includes heatmapping, streaming location analytics and GGplot functionality.
 
+## List of Dependencies
+
+### q
+Q is required for this project. Instructions pertaining to the install of this dependency is on the code.kx website:
+https://code.kx.com/q/learn/install/
+
+### developer
+Developer is a useful tool for expanding upon this project, also available on the code.kx website:
+https://code.kx.com/developer/
+
+### PyKdb
+PyKdb is a module within Python used to parse K objects to Q instances. This is currently in alpha release, but the documentation regarding install and usage is located at:
+https://kxdev.gitlab.io/labs-experiments/pykdb/
+
 ## Use instructions
 
 ### Before First Use
