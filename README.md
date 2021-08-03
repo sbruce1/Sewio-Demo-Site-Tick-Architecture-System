@@ -19,19 +19,16 @@ https://kxdev.gitlab.io/labs-experiments/pykdb/
 
 ### Before First Use
 
-startupNew.sh currently contains reference directories from my individual computer, this will be updated in later commit.
-In the interim, for personal use the following changes should be made to startupNew.sh:
-
-1. Change line 8 to cd /dir/to/gitclone/dash.
-2. Change the directory on lines 13 & 16 to a directory desired for the on-disk database.
-3. Change the directory on lines 12,15,18 to /dir/to/gitclone/Test/* , where * refers to the end of the existing directory following Test.
-
-endprocesses.sh should be used cautiously as it ends all q instances running on your local machine.
+Change the directories for $BASE_CLONE_DIRECTORY and $ON_DISK_HDB within the startupNew.sh script.
 
 ### Startup Sequence
 
 First run "python Main.py" to start the datastream
 Secondly run "./startupNew.sh"
+
+### End Sequence
+
+Run ./endprocesses.sh and this will end all q instances running on your local machine. Be cautious of using this as it does not limit itself to only the q processes contained within this project.
 
 ## Example Dashboards Setup
 
