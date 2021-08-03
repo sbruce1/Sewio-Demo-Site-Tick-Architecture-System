@@ -7,7 +7,7 @@ Tick Architecture System, setup with Q/KDB+ ingesting real-time location data vi
 Q is required for this project. Instructions pertaining to the install of this dependency is on the code.kx website:
 https://code.kx.com/q/learn/install/
 
-### developer
+### Developer
 Developer is a useful tool for expanding upon this project, also available on the code.kx website:
 https://code.kx.com/developer/
 
