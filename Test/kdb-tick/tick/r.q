@@ -2,6 +2,9 @@
 /2008.09.09 .k ->.q
 `.debug.where set system "pwd";
 BCD:getenv `BASE_CLONE_DIRECTORY;
+if[not last BCD = "/";
+    BCD:BCD,"/";
+    ];
 HDBdir:getenv `ON_DISK_HDB;
 l1:BCD,"Test/.analytics/heatmap.q";
 l2:BCD,"Test/.analytics/highFrequencyHeatmap.q";
