@@ -1,9 +1,5 @@
 #!/bin/bash
-
-# Insert your own directory for ON_DISK_HDB and BASE_CLONE_DIRECTORY here
-ON_DISK_HDB="/home/sbruce1/sbruce1/OnDiskDB/TickerPlantTestDB/"
-BASE_CLONE_DIRECTORY="/home/sbruce1/Desktop/Work/Projects/Git/Sewio/Sewio-Demo-Site-Tick-Architecture-System/"
-
+source config.profile
 
 echo $BASE_CLONE_DIRECTORY
 echo "Starting Dashboards"
