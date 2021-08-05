@@ -19,7 +19,7 @@ https://kxdev.gitlab.io/labs-experiments/pykdb/
 
 ### Before First Use
 
-Change the directories for $BASE_CLONE_DIRECTORY and $ON_DISK_HDB within the startupNew.sh script.
+Change the directories for $BASE_CLONE_DIRECTORY, $ON_DISK_HDB and if using developer, $DEVELOPER_DIRECTORY within config.profile. (If not using developer comment out that line)
 
 ### Startup Sequence
 
