@@ -1,14 +1,22 @@
 /q tick/r.q [host]:port[:usr:pwd] [host]:port[:usr:pwd]
 /2008.09.09 .k ->.q
 `.debug.where set system "pwd";
-\l /home/sbruce1/developer/workspace/a/Test/.analytics/heatmap.q
-\l /home/sbruce1/developer/workspace/a/Test/.analytics/highFrequencyHeatmap.q
+BCD:getenv `BASE_CLONE_DIRECTORY;
+HDBdir:getenv `ON_DISK_HDB;
+l1:BCD,"Test/.analytics/heatmap.q";
+l2:BCD,"Test/.analytics/highFrequencyHeatmap.q";
+system "l ",l1;
+system "l ",l2;
 
-system "cd /home/sbruce1/developer/ws";
-system "l /home/sbruce1/developer/ws/graphics.q_";
-system "cd /mnt/c/Users/sbruce1/OnDiskDB/TickerPlantTestDB/sym";
+if[count DEVdir:getenv `DEVELOPER_DIRECTORY;
+    cdDev:DEVdir,"ws";
+    ldev:DEVdir,"ws/graphics.q_";
+    system "cd ",cdDev;
+    system "l ",ldev;
+    ];
 
-/\l /home/sbruce1/developer/ws/graphics.q_
+l3:"cd ",HDBdir;
+system l3;
 
 if[not "w"=first string .z.o;system "sleep 1"];
 
